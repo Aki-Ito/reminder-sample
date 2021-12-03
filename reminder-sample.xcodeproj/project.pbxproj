@@ -15,6 +15,7 @@
 		2CDB95242699E8F500943283 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CDB95222699E8F500943283 /* LaunchScreen.storyboard */; };
 		2CDB952F2699E8F500943283 /* reminder_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDB952E2699E8F500943283 /* reminder_sampleTests.swift */; };
 		2CDB953A2699E8F500943283 /* reminder_sampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDB95392699E8F500943283 /* reminder_sampleUITests.swift */; };
+		2CDB95482699F00500943283 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDB95472699F00500943283 /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2CDB95352699E8F500943283 /* reminder-sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "reminder-sampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CDB95392699E8F500943283 /* reminder_sampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reminder_sampleUITests.swift; sourceTree = "<group>"; };
 		2CDB953B2699E8F500943283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CDB95472699F00500943283 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				2CDB95202699E8F500943283 /* Assets.xcassets */,
 				2CDB95222699E8F500943283 /* LaunchScreen.storyboard */,
 				2CDB95252699E8F500943283 /* Info.plist */,
+				2CDB95472699F00500943283 /* AddViewController.swift */,
 			);
 			path = "reminder-sample";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				2CDB951C2699E8F100943283 /* ViewController.swift in Sources */,
 				2CDB95182699E8F100943283 /* AppDelegate.swift in Sources */,
+				2CDB95482699F00500943283 /* AddViewController.swift in Sources */,
 				2CDB951A2699E8F100943283 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
